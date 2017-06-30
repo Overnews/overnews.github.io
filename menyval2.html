@@ -1,0 +1,409 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+<link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+    
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>overnews</title>
+</head>
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body id="2">
+
+    <!-- I header finns allt som är sidans toppdel där rubrik och menu ofta finns -->
+    <header>
+        <!-- I nav finns alla länkar eller knappar för navigering, tex en menyrad -->
+        <nav class="nav navbar-inverse navbar-static-top">
+            <div class="container">
+               <a class="navbar-brand" href="index.html"><img src="bilder/logo.png"></a>
+                <ul class="nav navbar-nav">
+                    <!-- Listpunkterna här blir knappar för dina olika menyval i menyn -->
+                    <li><a href="menyval1.html">Topp 10</a></li>
+                    <li><a href="menyval2.html">hero gallery</a></li>
+                    <li><a href="menyval3.html">tips</a></li>
+                </ul> 
+            </div>
+        </nav>
+    </header>       
+    <!-- I main finns huvudsakliga innehållet, exempelvis blogginlägg eller topplistor -->
+    <main>
+    <h1>hero gallery</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <ul>
+            <li><a href="#mcree">Mcree</a></li>
+            <li><a href="#hanzo">hanzo</a></li>
+            <li><a href="#roadhog">roadhog</a></li>
+            <li><a href="#mei">mei</a></li>
+            <li><a href="#pharah">pharah</a></li>
+            <li><a href="#torbjorn">torbjörn</a></li>
+            <li><a href="#ana">ana</a></li>
+            <li><a href="#genji">genji</a></li>
+          </ul>
+        </div>
+        <div class="col-md-9">
+
+          <div class="gallery">
+            <h3 id="mcree">Mcree</h3>
+            <img src="bilder/mcree.png">
+            <p>Real Name
+Jesse McCree.
+Age
+37/
+
+Nationality
+USA American/
+
+Occupation
+Bounty Hunter/
+
+Base
+Santa Fe, New Mexico, USA/
+
+Affiliation
+Overwatch (formerly) 
+Blackwatch (formerly)/
+
+Voice
+Matthew Mercer/
+
+Role
+Offense/
+
+Health
+200/
+
+</p>
+
+            <h3 id="hanzo">hanzo</h3>
+            <img src="bilder/hanzo2.png">
+            <p>
+Age
+38/
+
+Nationality
+JapanJapanese/
+Occupation
+
+Mercenary, Assassin
+Base
+Hanamura, Japan (formerly)/
+
+Affiliation
+Shimada Clan (formerly)/
+
+Relations
+Sojiro Shimada (father)
+Genji Shimada (younger brother)/
+
+
+Voice
+Paul Nakauchi[2] (English)
+Lionel Tua (French)
+Bernd Vollbrecht (German)
+Lorenzo Scattorin (Italian)
+Shuhei Sakaguchi (Japanese)
+Reginaldo Primo (Brazilian Portuguese)
+Dan Osorio (American Spanish)
+Miguel Ángel Montero (European Spanish)
+Liu Beichen (Mandarin(China))
+Kang Dian-Hong (Mandarin(Taiwan))/
+
+
+Role
+Defense/
+
+Health
+200/
+</p>
+
+            <h3 id="roadhog">roadhog</h3>
+            <img src="bilder/roadhog.jpg">
+            <p>Real Name
+Mako Rutledge/Age
+48/
+
+Nationality
+New Zealand New Zealand (assumed as being an Australian)/
+
+Occupation
+Enforcer (formerly)
+Bodyguard/
+
+Base
+Junkertown, Australia (formerly)/
+
+Affiliation
+Australian Liberation Front (formerly)
+Junkers (formerly)/
+
+Voice
+Josh Petersdorf (English)/
+
+[Expand]
+Role
+Tank/
+
+Health
+600/
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </p>
+
+            <h3 id="mei">mei</h3>
+            <img src="bilder/mei.png" id="mei">
+            <p>Real Name
+Mei-Ling Zhou (周美灵)/
+
+Age
+31 (biological)[1]/
+
+approx. 40 (chronological)[2]
+Nationality
+ChinaChinese
+Occupation
+Climatologist, Adventurer
+Base
+Xi’an, China (formerly)/
+
+Affiliation
+Overwatch (formerly)/
+
+Voice
+Elise Zhang (English)
+[Expand]/
+
+Role
+Defense/
+
+Health
+250/</p><div class="gallery">
+            <h3 id="pharah">pharah</h3>
+            <img src="bilder/pharah.png"><p
+Age
+32/
+
+Nationality
+EgyptEgyptian/
+
+Occupation
+Security Chief/
+
+Base
+Giza, Egypt/
+
+Affiliation
+Egyptian Army (formerly)/
+
+Helix Security International
+Relations
+Ana Amari (mother)/
+
+Voice
+Jen Cohn (English)
+Ethel Houbiers (French)
+Debora Magnaghi (Italian)
+Romi Park (Japanese) 
+Marcela Duarte (Brazilan Portuguese)
+Irina Índigo (American Spanish)
+Diana Torres (European Spanish)/
+
+Role
+Offense/
+
+Health
+200/</p>
+
+
+
+
+
+
+
+</p><div class="gallery">
+            <h3 id="torbjorn">torbjörn</h3>
+            <img src="bilder/torbjörn.png">
+
+            <p>
+
+
+
+
+
+
+
+Real Name
+Torbjörn Lindholm/
+
+Age
+57/
+
+Nationality
+SwedenSwedish/
+
+Occupation
+Weapons designer/
+
+Base
+Gothenburg, Sweden/
+
+Affiliation
+Ironclad Guild (formerly)
+Overwatch (formerly)/
+
+Relations
+Wife
+Eight children/
+
+Voice
+Keith Silverstein (English)/
+
+Role
+Defense/
+
+Health
+200/
+</p>
+
+
+
+</p><div class="gallery">
+            <h3 id="ana">Ana</h3>
+            <img src="bilder/ana.png"><p>
+
+
+Real Name
+Ana Amari/
+
+Other Names
+Horus
+Shrike
+Status
+Active/
+
+Age
+60/
+
+Nationality
+EgyptEgyptian/
+
+Occupation
+Sharpshooter (formerly)
+Overwatch second-in-command (formerly)
+Bounty hunter/
+
+Base
+Cairo, Egypt/
+
+Affiliation
+Egyptian security forces (formerly)
+Overwatch (formerly)/
+
+Relations
+Fareeha Amari (daughter)/
+
+Voice
+Aysha Selim (English)/
+
+Role
+Support/
+
+Health
+200/</p>
+
+<h3 id="genji">genji</h3>
+            <img src="bilder/genji.png"><p>
+Real Name
+Genji Shimada (島田源氏)[1]
+Other Names
+Sparrow/
+Age
+35/
+Nationality
+Japan Japanese/
+Occupation
+Adventurer/
+Base
+Hanamura, Japan (formerly)
+Shambali Monastery, Nepal (formerly)/
+
+Affiliation
+Shimada Clan (formerly)
+Overwatch (formerly)
+Blackwatch (formerly)/
+Relations
+Sojiro Shimada (father)
+Hanzo Shimada (older brother)/
+
+Voice
+Gaku Space [2][3] (English)/
+Role
+Offense/
+Health
+200/
+</p>
+
+
+
+
+
+
+          </div>
+
+
+
+
+        </div>
+      </div>
+    </div>
+
+   </main> </main>
+</body>
+</html>

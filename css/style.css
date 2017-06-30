@@ -1,0 +1,53 @@
+* {
+	font-family: 'fredoka one';
+}
+
+.gallery img{
+	width:55%;
+	display: flex;
+	justify-content: center;
+
+}
+
+#mei {
+	height: 550
+px;
+}
+
+body {
+	font-family: 'Overwatch', sans-serif;
+	background-color:black;
+}
+
+.navbar-inverse {
+	background-color: #5271ff;
+}
+
+a img {
+	width: 100px;
+}
+
+
+h1{
+	color:orange;
+}
+ul{
+	color:orange;
+}
+h3{
+	color:orange;
+}
+{
+	color:orange;
+}
+p{
+	color:blue;
+}
+
+#allaheroes{
+	width: 100%;
+}
+
+
+
+
